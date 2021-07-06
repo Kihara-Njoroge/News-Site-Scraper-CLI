@@ -1,3 +1,5 @@
+[![Code Grade](<BADGE-LINK>)](<DASHBOARD-LINK>)
+
 # Scrappy News Site Scraper.
 ### A final project done in completion of the Skaehub boot bamp.
 
