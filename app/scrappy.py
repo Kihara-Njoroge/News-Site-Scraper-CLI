@@ -1,8 +1,5 @@
 from __future__ import print_function, unicode_literals
-from PyInquirer import style_from_dict, Token, prompt, Separator
-from pprint import pprint
 from pyfiglet import Figlet
-from requests.api import get
 from termcolor import colored
 import sys, os
 from bs4 import BeautifulSoup
@@ -29,8 +26,7 @@ def scrappy():
     #running the app when user inputs the run command
     if command == 'scrappy run':
         def get_articles():
-
-        #asking a link from the user using pyinquirer
+            #asking a link from the user using pyinquirer
             questions = [
         {
             'type':'input',
