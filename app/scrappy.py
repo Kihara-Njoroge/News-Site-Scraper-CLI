@@ -1,4 +1,5 @@
 from __future__ import print_function, unicode_literals
+from PyInquirer import prompt
 from pyfiglet import Figlet
 from termcolor import colored
 import sys, os
@@ -21,8 +22,7 @@ print('-------------------------------------------------------------------------
 command = input('Enter a command: ' '\n')
 
 #definig the main function scrappy
-def scrappy():
-    
+def scrappy(): 
     #running the app when user inputs the run command
     if command == 'scrappy run':
         def get_articles():
@@ -61,8 +61,6 @@ def scrappy():
                 except AttributeError:
                     description = data.find_next_sibling("a")
                     description = data.find_previous_sibling("p")
-            
-
                 #writing the obtained content to the text file     
                 file.write("Headline: " + str(data.getText()))
                 file.write("\n")
@@ -90,13 +88,6 @@ def scrappy():
         print('Try Again' '\n')
         os.execv(sys.executable, ['python'] + sys.argv)
         
-
-
-
-
-
-
-
 if __name__ == '__main__':
     scrappy()
     while True:
