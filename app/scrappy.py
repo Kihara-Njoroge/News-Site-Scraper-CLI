@@ -17,7 +17,6 @@ print('   2."scrappy run" --> to start the app')
 print('   3."scrappy quit" ---> To close the app' '\n')
 print('---------------------------------------------------------------------------------------s----------------------')
 
-
 #prompting user for a command
 command = input('Enter a command: ' '\n')
 #definig the main function scrappy
