@@ -1,5 +1,6 @@
 import unittest
 from unittest.case import TestCase
+from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 import requests
 
@@ -18,8 +19,6 @@ class test_scaper(TestCase):
             except ValueError:
                  return False
         self.assertFalse(is_url(''))
-
-
     #testing when the user enters an invalid string as a url
     def test_invalid_url(self):
         def is_url(url):
@@ -45,7 +44,6 @@ class test_scaper(TestCase):
     def test_headline_exists(self):
         headline = soup.find(['h2', 'h3'])
         self.assertIsNotNone(headline)
-
     #test whether the story(p tags) are fetched/exists  
     def test_story(self):
         headline = soup.find_all(['h2', 'h3'])
