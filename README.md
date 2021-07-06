@@ -1,4 +1,4 @@
-https://www.code-inspector.com/project/24614/score/svg  https://www.code-inspector.com/project/24614/status/svg
+[![Code Grade](https://www.code-inspector.com/project/24614/score/svg)]
 
 # Scrappy News Site Scraper.
 ### A final project done in completion of the Skaehub boot bamp.
