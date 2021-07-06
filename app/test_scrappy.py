@@ -2,7 +2,6 @@ import unittest
 from unittest.case import TestCase
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
-from urllib.parse import urlparse
 import requests
 
 url = 'https://news.yahoo.com/science/'
@@ -20,8 +19,6 @@ class test_scaper(TestCase):
             except ValueError:
                  return False
         self.assertFalse(is_url(''))
-
-
     #testing when the user enters an invalid string as a url
     def test_invalid_url(self):
         def is_url(url):
@@ -31,8 +28,6 @@ class test_scaper(TestCase):
             except ValueError:
                  return False
         self.assertFalse(is_url('hello'))
-    
-    
     #testing when a valid url is entered
     def test_valid_url(self):
         def is_url(url):
@@ -42,17 +37,13 @@ class test_scaper(TestCase):
             except ValueError:
                  return False
         self.assertTrue(is_url(url))
-
-
     #test if the page content exists
     def test_content_exist(self):
         self.assertIsNotNone(soup)
-
     #test whether the headlines(h2, h3) are fetched/exists
     def test_headline_exists(self):
         headline = soup.find(['h2', 'h3'])
         self.assertIsNotNone(headline)
-
     #test whether the story(p tags) are fetched/exists  
     def test_story(self):
         headline = soup.find_all(['h2', 'h3'])
@@ -62,10 +53,9 @@ class test_scaper(TestCase):
                 story = data.find_next_sibling("p").text
             except TypeError:
                 story = data.find_next_sibling("p").text
-            except:
+            except AttributeError:
                 story = data.find_previous_sibling("p").text
             self.assertIsNotNone(story)
-
     #test whether the links to the story are fetched/exists 
     def test_link(self):
         headline = soup.find_all(['h2', 'h3'])
