@@ -3,8 +3,7 @@ from unittest.case import TestCase
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
-from requests.api import get
-from scrappy import *
+import requests
 
 url = 'https://news.yahoo.com/science/'
 res = requests.get(url).text
@@ -77,7 +76,6 @@ class test_scaper(TestCase):
                 link = data.find_parent('a')['href']
 
             self.assertIsNotNone(link)
-        
 
 if __name__ == '__main__':
     unittest.main()
