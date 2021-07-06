@@ -20,7 +20,6 @@ print('-------------------------------------------------------------------------
 
 #prompting user for a command
 command = input('Enter a command: ' '\n')
-
 #definig the main function scrappy
 def scrappy(): 
     #running the app when user inputs the run command
