@@ -9,9 +9,9 @@ The app can be used by everyone interested in getting news articles from sites t
 
 
 ## 2.Commands
-   ### 1.python3 scrappy.py -- To run the program
-   ### 2.scrappy run -- To run the scrappy app
-   ### 3.scrappy quit ---  To close scrappy the app
+   1.<code>python3 scrappy.py </code> -- To run the program
+   2.<code>scrappy run</code> -- To run the scrappy app
+   3.<code>scrappy quit</code> ---  To close scrappy the app
    
    
 ## 3.Installation and Setup
@@ -31,8 +31,12 @@ We will use nose and coverage to test our app
 
 run: 
     1.<code>nosetests app --with-covearge </code>
-    2. coverage report
-    
+    2. <code>coverage report</code>
+  
+# Bugs
+Due to the inconsistency in the DOM structure of different News Websites. Some websites might not return the the p or a tag.
+
+
 # Credits
 1.[Kihara Njoroge](https://github.com/Babuuh)
 2.Skaehub
