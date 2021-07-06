@@ -34,7 +34,7 @@ We will use nose and coverage to test our app
 run: 
     1.<code>nosetests app --with-covearge </code>
     
-    2. <code>coverage report</code>
+    2.<code>coverage report</code>
   
 # Bugs
 Due to the inconsistency in the DOM structure of different News Websites. Some websites might not return the the p or a tag.
