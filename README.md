@@ -45,6 +45,7 @@ The video below shows how to run the app
   
 # Bugs
 1.Due to the inconsistency in the DOM structure of different News Websites. Some websites might not return the the p or a tag.
+
 2.No fall back for when a user inputs an invalid url
 
 
