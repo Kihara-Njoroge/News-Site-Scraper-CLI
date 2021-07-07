@@ -35,6 +35,12 @@ We will use nose and coverage to test our app
 
 run: 
     <code>nosetests app --with-covearge </code> and <code> coverage report </code>
+    
+# Usage
+The video below shows how to run the app 
+
+![image](https://github.com/Babuuh/News-Site-Scraper-CLI/blob/master/scrappy.gif)
+
   
 # Bugs
 Due to the inconsistency in the DOM structure of different News Websites. Some websites might not return the the p or a tag.
