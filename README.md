@@ -7,15 +7,7 @@
 The main objective of the project was to come up with an app for scraping news sites and retrieving the news articles.
 
 ### Who is it for?
-The app can be used by everyone interested in getting news articles from sites that allow webscarping.
-
-
-## 2.Commands
-   1.<code>python3 scrappy.py </code> -- To run the program
-   
-   2.<code>scrappy run</code> -- To run the scrappy app
-   
-   3.<code>scrappy quit</code> ---  To close scrappy the app
+The app can be used by everyone interested in getting news articles from sites that allow web scrappping.
    
    
 ## 3.Installation and Setup
@@ -30,6 +22,15 @@ The app can be used by everyone interested in getting news articles from sites t
 
 5. run the app using <code> python3 app/scrappy.py </code>
 
+
+## 2.Commands
+   1.<code>python3 scrappy.py </code> -- To run the program
+   
+   2.<code>scrappy run</code> -- To run the scrappy app
+   
+   3.<code>scrappy quit</code> ---  To close scrappy the app
+   
+
 ## 4. Testing
 We will use nose and coverage to test our app
 
@@ -43,7 +44,8 @@ The video below shows how to run the app
 
   
 # Bugs
-Due to the inconsistency in the DOM structure of different News Websites. Some websites might not return the the p or a tag.
+1.Due to the inconsistency in the DOM structure of different News Websites. Some websites might not return the the p or a tag.
+2.No fall back for when a user inputs an invalid url
 
 
 # Credits
