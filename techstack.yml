@@ -1,7 +1,8 @@
 repo_name: Kihara-Njoroge/News-Site-Scraper-CLI
 report_id: 784691374790ab9b1c3583244cbba30f
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-13T04:39:06+00:00'
+timestamp: '2024-01-05T08:46:40+00:00'
 requested_by: Kihara-Njoroge
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-04 15:45:05.000000000 Z
@@ -37,6 +40,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -46,6 +50,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-04 15:45:05.000000000 Z
@@ -57,12 +62,13 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-04 15:45:05.000000000 Z
 - name: Pygments
   description: Pygments is a syntax highlighting package written in Python
-  package_url: https://pypi.org/Pygments
+  package_url: https://pypi.org/project/Pygments
   version: 2.9.0
   license: BSD-3-Clause
   open_source: true
@@ -70,7 +76,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19858/default_4d761b2257a1435539d6dc92346974d9f1d55c70.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-06 16:06:02.000000000 Z
@@ -83,7 +89,7 @@ tools:
     first_patched: 2.15.0
 - name: beautifulsoup4
   description: Screen-scraping library
-  package_url: https://pypi.org/beautifulsoup4
+  package_url: https://pypi.org/project/beautifulsoup4
   version: 4.9.3
   license: MIT
   open_source: true
@@ -91,13 +97,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-04 15:45:05.000000000 Z
 - name: certifi
   description: Python package for providing Mozilla's CA Bundle
-  package_url: https://pypi.org/certifi
+  package_url: https://pypi.org/project/certifi
   version: 2021.5.30
   license: MPL-2.0
   open_source: true
@@ -105,7 +111,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-04 15:45:05.000000000 Z
@@ -124,7 +130,7 @@ tools:
     first_patched: 2022.12.07
 - name: chardet
   description: Universal encoding detector for Python 2 and 3
-  package_url: https://pypi.org/chardet
+  package_url: https://pypi.org/project/chardet
   version: 4.0.0
   license: LGPL-2.1
   open_source: true
@@ -132,13 +138,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19856/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-04 15:45:05.000000000 Z
 - name: coverage
   description: Code coverage measurement for Python
-  package_url: https://pypi.org/coverage
+  package_url: https://pypi.org/project/coverage
   version: '5.5'
   license: Apache-2.0
   open_source: true
@@ -146,13 +152,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19904/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-04 15:45:05.000000000 Z
 - name: html5lib
   description: HTML parser based on the WHATWG HTML specification
-  package_url: https://pypi.org/html5lib
+  package_url: https://pypi.org/project/html5lib
   version: '1.1'
   license: MIT
   open_source: true
@@ -160,13 +166,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19936/default_63c8e7696ded615c51302c06e54b0d0c8ae9af3f.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-06 16:06:02.000000000 Z
 - name: idna
   description: Internationalized Domain Names in Applications
-  package_url: https://pypi.org/idna
+  package_url: https://pypi.org/project/idna
   version: '2.10'
   license: BSD-3-Clause
   open_source: true
@@ -174,13 +180,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-04 15:45:05.000000000 Z
 - name: nose
   description: Nose extends unittest to make testing easier
-  package_url: https://pypi.org/nose
+  package_url: https://pypi.org/project/nose
   version: 1.3.7
   license: LGPL-2.1+
   open_source: true
@@ -188,13 +194,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19887/default_680f9274a97353753534797409b2c06b6bd32266.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-06 16:06:02.000000000 Z
 - name: prompt-toolkit
   description: Library for building powerful interactive command lines in Python
-  package_url: https://pypi.org/prompt-toolkit
+  package_url: https://pypi.org/project/prompt-toolkit
   version: 1.0.14
   license: BSD-3-Clause
   open_source: true
@@ -202,25 +208,26 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20821/default_807bb6c1af3ee7076c92bf3b4deb3e13b204d369.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-06 16:06:02.000000000 Z
 - name: pyfiglet
   description: Pure-python FIGlet implementation
-  package_url: https://pypi.org/pyfiglet
+  package_url: https://pypi.org/project/pyfiglet
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20056/default_c6b771728648e397c4dc44c31f72db9a0f6ca233.png
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-06 16:06:02.000000000 Z
 - name: regex
   description: Alternative regular expression module, to replace re
-  package_url: https://pypi.org/regex
+  package_url: https://pypi.org/project/regex
   version: 2021.7.6
   license: Python-2.0
   open_source: true
@@ -228,13 +235,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19923/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-06 16:06:02.000000000 Z
 - name: requests
   description: Python HTTP for Humans
-  package_url: https://pypi.org/requests
+  package_url: https://pypi.org/project/requests
   version: 2.25.1
   license: Apache-2.0
   open_source: true
@@ -242,7 +249,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-04 15:45:05.000000000 Z
@@ -255,7 +262,7 @@ tools:
     first_patched: 2.31.0
 - name: six
   description: Python 2 and 3 compatibility utilities
-  package_url: https://pypi.org/six
+  package_url: https://pypi.org/project/six
   version: 1.16.0
   license: MIT
   open_source: true
@@ -263,13 +270,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-04 15:45:05.000000000 Z
 - name: soupsieve
   description: A modern CSS selector implementation for Beautiful Soup
-  package_url: https://pypi.org/soupsieve
+  package_url: https://pypi.org/project/soupsieve
   version: 2.2.1
   license: MIT
   open_source: true
@@ -277,13 +284,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20367/default_f96848c380cbdcec99ab678e027c29229da52205.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-04 15:45:05.000000000 Z
 - name: termcolor
   description: ANSII Color formatting for output in terminal
-  package_url: https://pypi.org/termcolor
+  package_url: https://pypi.org/project/termcolor
   version: 1.1.0
   license: MIT
   open_source: true
@@ -291,13 +298,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20014/default_9e735547ab71630330a9e635a78e5cedca9ba560.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-04 15:45:05.000000000 Z
 - name: urllib3
   description: HTTP library with thread-safe connection pooling
-  package_url: https://pypi.org/urllib3
+  package_url: https://pypi.org/project/urllib3
   version: 1.26.6
   license: MIT
   open_source: true
@@ -305,7 +312,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-04 15:45:05.000000000 Z
@@ -325,7 +332,7 @@ tools:
     first_patched: 1.26.17
 - name: wcwidth
   description: Measures number of Terminal column cells of wide-character codes
-  package_url: https://pypi.org/wcwidth
+  package_url: https://pypi.org/project/wcwidth
   version: 0.2.5
   license: MIT
   open_source: true
@@ -333,13 +340,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20026/default_77bb3e5ea95c1543fd636eba30e7257b80fbd4f6.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-06 16:06:02.000000000 Z
 - name: webencodings
   description: Character encoding aliases for legacy web content
-  package_url: https://pypi.org/webencodings
+  package_url: https://pypi.org/project/webencodings
   version: 0.5.1
   license: BSD-3-Clause
   open_source: true
@@ -347,7 +354,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20327/default_1342a7e78c3c34f58715077849cd487ffddd263d.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/News-Site-Scraper-CLI/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Babuuh
   last_updated_on: 2021-07-06 16:06:02.000000000 Z
